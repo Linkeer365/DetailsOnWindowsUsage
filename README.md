@@ -18,7 +18,7 @@
 - Jupyter notebook 快捷方式
     - 目标是: 1. work_dir换成D:/jupyter notebook 2. 用conda命令行输入jn打开jupyter notebook[此时其work_dir是在D:/jupyter notebook]
     - 解决方法:
-        1. conda输入upyter notebook --generate-config, 找到jupyter_notebook_config.py, 查找c.NotebookApp.notebook_dir, 填写保存
+        1. conda输入jupyter notebook --generate-config, 找到jupyter_notebook_config.py, 查找c.NotebookApp.notebook_dir, 填写保存
         2. [改名] 利用https://stackoverflow.com/questions/20530996/aliases-in-windows-command-prompt下的Velixo的办法, 创建文件夹D:/aliases, 里面写一个jn.bat, 内容是: # jn就是你的aliase
             - @echo off
             - echo.
