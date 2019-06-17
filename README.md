@@ -26,6 +26,7 @@
 - 换行, 回车是两个不同的概念!
     - 换行: \n -> newline; 表示光标下移一行[不一定在行首]
     - 回车: \r -> return; 表示光标回到开头字符处; [就有的时候没有换行就直接回车 可能会覆盖掉之前的字符吧估计]
+- java定义数组风格是: datatype[] arrayrefvar; C++/C定义数组风格是: datatype arrayrefvar[]; 
    
 
  
